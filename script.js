@@ -65,4 +65,4 @@ function generator() {
 
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
-tl.to("#preloader", { y: "-100%", duration: 0.5, ease: "slow(0.7, 0.7, false)" ,delay:2.6});
+tl.to("#preloader", { y: "-100%", duration: 0.5, ease: "slow(0.7, 0.7, false)" ,delay:2.8});
