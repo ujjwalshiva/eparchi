@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1024">
+	<title> eParchi | Checkout </title>
+	<link rel="stylesheet" href="design.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h4>Taj Mahal, Agra</h4>
+		<ul>
+			<li class = "left">Booking Cost</li>
+			<li class="right" id = "price">₹ 30.00</li>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Wide_view_of_Taj_Mahal.jpg" alt="">
+			<form>
+				<label for="first_name"> Name </label><br>
+			    <input type="text" id="name" name="name" placeholder="Enter Name">
+			    <br>
+
+			    <label for="datee"> Date </label><br>
+			    <input type="date" id="datee" name="datee">
+			    <br>
+
+			    <label for="ticket"> Ticket Type </label><br>
+			    <select id="ticket" onchange="checkChange()">
+					<option value="GENERAL"> GENERAL </option>
+					<option value="VIP"> VIP </option>
+					<option value="NRI"> NRI </option>
+			    </select>
+			  </form>
+			  <button class="submit" onclick="getTicket()">
+			  	Pay Now
+			  </button>
+		</ul>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+img {
+	width: 495px;
+	height: 740.55px;
+	display: block;
+    margin: 0 auto;
+}
+
+.placename {
+	position: absolute;
+	width: 162.18px;
+	height: 23.39px;
+	left: 590px;
+	top: 250px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 18px;
+	/* or 90% */
+
+	letter-spacing: 0.02em;
+
+	color: #333333;
+}
+
+.ticket-type {
+	left: 850px;
+	top: 240px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+
+	position: absolute;
+	width: 130px;
+	height: 34px;
+
+	background: #0E840C;
+	border-radius: 13px;
+
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.area {
+	position: absolute;
+	width: 241.59px;
+	height: 23.39px;
+	left: 610px;
+	top: 295px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	/* or 120% */
+
+
+	color: #333333;
+}
+
+.date {
+	position: absolute;
+	width: 116.57px;
+	height: 23.39px;
+	left: 590px;
+	top: 365px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 18px;
+	/* or 90% */
+
+
+	color: #333333;
+}
+
+.hour {
+		position: absolute;
+	width: 116.57px;
+	height: 23.39px;
+	left: 720px;
+	top: 365px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 18px;
+	/* or 90% */
+
+
+	color: #333333;
+}
+
+.name {
+	position: absolute;
+	width: 116.57px;
+	height: 23.39px;
+	left: 588px;
+	top: 478px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 18px;
+	/* or 90% */
+
+	color: #333333;
+
+}
+
+.bookingid {
+	position: absolute;
+	width: 116.57px;
+	height: 23.39px;
+	left: 588px;
+	top: 548px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 18px;
+	/* or 90% */
+
+	color: #333333;
+}
+
+.passid {
+		position: absolute;
+	width: 116.57px;
+	height: 23.39px;
+	left: 588px;
+	top: 615px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 18px;
+	/* or 90% */
+
+	color: #333333;	
+}
+
+.qrimg {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 780px;
+	top: 450px;
+}
+
+#preloader{
+    background: url("checkout_animation.gif") no-repeat center center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+}
