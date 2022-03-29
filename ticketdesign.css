@@ -2,7 +2,15 @@ img {
 	width: 495px;
 	height: 740.55px;
 	display: block;
-    margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+}
+
+.container2 {
+	display: block;
+	margin: 0 auto;
+	resize: none;
 }
 
 .placename {

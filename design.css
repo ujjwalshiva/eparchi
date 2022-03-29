@@ -3,13 +3,14 @@ html {
 	font-family: 'Karla', sans-serif;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-family: 'Karla', sans-serif;
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-family: 'Karla', sans-serif;
 }
 
-::-webkit-calendar-picker-indicator{
-    margin-right: 10px;
-    font-family: 'Karla', sans-serif;
+::-webkit-calendar-picker-indicator {
+	margin-right: 10px;
+	font-family: 'Karla', sans-serif;
 }
 
 .container {
@@ -36,12 +37,12 @@ html {
 }
 
 .left {
-	float: 	left;
+	float: left;
 }
 
-.right	{
-	float: 	right;
-	margin-right: 	50px;
+.right {
+	float: right;
+	margin-right: 50px;
 }
 
 img {
@@ -71,7 +72,7 @@ input {
 	margin-bottom: 12px;
 	margin-top: 12px;
 	font-family: 'Karla', sans-serif;
-  	padding-left: 10px;
+	padding-left: 10px;
 
 
 	background: #EEF1F4;
@@ -113,4 +114,6 @@ select {
 	border-radius: 8px;
 }
 
-.submit:hover {opacity: 0.8}
+.submit:hover {
+	opacity: 0.8
+}
